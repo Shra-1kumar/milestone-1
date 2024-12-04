@@ -28,13 +28,13 @@ Get Menu (GET /menu): Retrieve menu items.
 Place Order (POST /orders): Create an order with selected menu items
 1.Open Postman: Click on "New" > "Request" and give it a name.
 2.Set Method to POST: Choose "POST" from the dropdown next to the URL.
-3.Enter the API URL: Type the URL for placing the order (e.g., https://api.example.com/orders).
+3.Enter the API URL: Type the URL for placing the order (e.g.,(http://localhost:3000/orders/2)).
 4.Add Order Details: In the "Body" tab, select "Raw" and "JSON", then enter the order details (e.g., menu items and quantity).
 5.Click "Send": Hit the "Send" button to place the order and check the response.
 
 Get Order (GET /orders/:id): Fetch details of a specific order.
 1.Open Postman: Click on "New" > "Request" and give it a name.
 2.Set Method to GET: Choose "GET" from the dropdown next to the URL.
-3.Enter the API URL: Type the URL for fetching the order (e.g., https://api.example.com/orders/123), replacing 123 with the specific order ID.
+3.Enter the API URL: Type the URL for fetching the order (e.g.,http://localhost:3000/orders/2), replacing 123 with the specific order ID.
 4.(Optional) Add Authorization: If needed, go to the "Authorization" tab to add an API key or token.
 5.Click "Send": Hit the "Send" button to fetch the order details and check the response.
